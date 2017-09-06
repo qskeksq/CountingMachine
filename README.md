@@ -8,8 +8,8 @@
 
 ```java
 public void changeMachine(int money, int price){
-    // 필요한 변수값 확인
-    int change = money - price;
+
+    int change = money - price;   // 필요한 변수값 확인
     int[] unit = {10000, 5000, 1000, 500, 100 ,10};
     int unit_length = unit.length;
     // 반복되는 코드 제어문으로 패턴화
